@@ -1,0 +1,19 @@
+.footer__button {
+  inline-size: clamp(19.125rem, 18.333rem + 3.38vw, 21.375rem);
+  block-size: 87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-block-start: 50px;
+}
+
+@media (width > 375px) {
+  .footer__button {
+    block-size: 55px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 7px;
+  }
+}

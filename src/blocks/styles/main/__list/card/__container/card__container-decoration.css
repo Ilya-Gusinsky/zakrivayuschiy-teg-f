@@ -1,0 +1,23 @@
+.card__container-decoration {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+  font-family: var(--title-font-family);
+  font-size: 14px;
+  text-shadow: 0 0 1px var(--background-color);
+  inset-inline-end: clamp(1.313rem, 1.224rem + 0.376vw, 1.563rem);
+  inset-block-start: 21px;
+  mix-blend-mode: hard-light;
+}
+
+@supports (
+  (text-stroke: 1px var(--background-color)) or
+    (-webkit-text-stroke: 1px var(--background-color))
+) {
+  .card__container-decoration {
+    -webkit-text-stroke: 1px var(--background-color);
+    /* stylelint-disable-next-line property-no-unknown */
+    text-stroke: 1px var(--background-color);
+    text-shadow: none;
+  }
+}

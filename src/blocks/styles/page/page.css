@@ -1,0 +1,12 @@
+.page {
+  min-inline-size: 320px;
+  max-inline-size: 700px;
+  min-block-size: 100dvb;
+  background-color: var(--background-color);
+  color: var(--main-color);
+  background-image: var(--background, none);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-block-start: 100px;
+  margin: auto;
+}

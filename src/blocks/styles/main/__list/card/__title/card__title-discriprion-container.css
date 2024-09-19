@@ -1,0 +1,12 @@
+.card__title-discriprion-container {
+  display: grid;
+  padding: 5px 25px;
+  gap: 27px;
+  margin-block-start: clamp(1.188rem, 1.033rem + 0.657vw, 1.625rem);
+}
+
+@media (width > 375px) {
+  .card__title-discriprion-container {
+    padding: 0 25px;
+  }
+}

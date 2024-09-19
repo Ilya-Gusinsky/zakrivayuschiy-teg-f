@@ -1,0 +1,14 @@
+.header {
+  inline-size: 100%;
+  min-block-size: clamp(20.438rem, 19.491rem + 4.038vw, 23.125rem);
+  max-inline-size: 700px;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  font-family: var(--title-font-family);
+  font-size: 14px;
+  background-color: var(--background-color);
+  border: 2px solid currentColor;
+  text-transform: uppercase;
+  margin: auto;
+}

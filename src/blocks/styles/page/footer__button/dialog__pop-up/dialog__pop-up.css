@@ -1,0 +1,36 @@
+.dialog__pop-up {
+  font-family: var(--title-font-family);
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  inline-size: clamp(21rem, 20.604rem + 1.69vw, 22.125rem);
+  block-size: 195px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  margin: auto;
+  border: 2px solid currentColor;
+  background-color: var(--background-color);
+  color: var(--main-color);
+  padding: 26px 39px 33px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.dialog__pop-up:not([open]) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.dialog__pop-up::backdrop {
+  background-color: rgb(0 0 0 / 0.75);
+  backdrop-filter: blur(1px);
+}
+
+@media (width > 375px) {
+  .dialog__pop-up {
+    padding-inline-start: 27px;
+    padding-inline-end: 27px;
+    block-size: 190px;
+  }
+}

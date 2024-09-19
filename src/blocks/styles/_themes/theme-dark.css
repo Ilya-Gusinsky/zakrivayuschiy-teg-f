@@ -1,0 +1,32 @@
+:root.theme-dark {
+  --main-font-weight: 465;
+  --headings-font-weight: 785;
+  --background-color: var(--black);
+  --main-color: var(--green);
+  --background: repeating-linear-gradient(
+      to right,
+      black 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+
+  --button-text-color: var(--green);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font-weight: 465;
+    --headings-font-weight: 785;
+    --background-color: var(--black);
+    --main-color: var(--green);
+    --background: repeating-linear-gradient(
+        to right,
+        black 0 2px,
+        transparent 2px 4px
+      ),
+      repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 4px),
+      linear-gradient(to bottom, #007f0c, #004306);
+    --button-text-color: var(--green);
+  }
+}

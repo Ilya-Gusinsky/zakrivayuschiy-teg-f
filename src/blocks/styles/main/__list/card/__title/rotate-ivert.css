@@ -1,0 +1,3 @@
+.rotate-ivert {
+  filter: hue-rotate(15deg) invert(0.3);
+}

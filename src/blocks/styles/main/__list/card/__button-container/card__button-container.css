@@ -1,0 +1,12 @@
+.card__button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-inline-end: 27px;
+  padding-block-end: 25px;
+  margin-block-start: clamp(1.25rem, 1.14rem + 0.469vw, 1.563rem);
+  gap: 2px;
+}
+
+.card__button-container:focus {
+  outline: none;
+}

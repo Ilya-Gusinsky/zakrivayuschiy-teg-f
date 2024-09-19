@@ -1,0 +1,28 @@
+:root {
+  /* stylelint-disable-next-line value-keyword-case */
+  --main-font-family: Inter, sans-serif;
+  --main-font-weight: 400;
+  --title-font-family: 'PressStart2P', fantasy;
+  --headings-font-weight: 700;
+
+  --white: white;
+  --black: black;
+  --green: #00cc14;
+
+  --background-color: var(--white);
+  --main-color: var(--black);
+
+  --background: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+
+  /* --like-main-body-color: none; */
+  --like-contour-color: var(--main-color);
+  --like-sparks-color: red;
+
+  --button-text-color: var(--main-color);
+}

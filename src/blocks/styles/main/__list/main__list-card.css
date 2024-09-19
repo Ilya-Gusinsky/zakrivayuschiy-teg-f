@@ -1,0 +1,4 @@
+.main__list-card {
+  border: 2px solid currentColor;
+  background-color: var(--background-color);
+}

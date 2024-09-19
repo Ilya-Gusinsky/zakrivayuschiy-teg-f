@@ -1,0 +1,50 @@
+.theme-menu__button {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  border: 2px solid var(--background-color);
+  text-transform: inherit;
+  cursor: pointer;
+  appearance: none;
+  transition: opacity 0.3s ease;
+}
+
+.theme-menu__button::after {
+  position: absolute;
+  content: '';
+  inset-inline-start: 0;
+  inset-block-end: -3px;
+  inline-size: 100%;
+  transform: scaleX(0);
+  block-size: 2px;
+  background-color: currentColor;
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.theme-menu__button:hover {
+  opacity: 0.6;
+}
+
+.theme-menu__button:focus {
+  outline: none;
+  opacity: 0.6;
+}
+
+.theme-menu__button:focus-visible:after {
+  transform: scaleX(1);
+  transform-origin: 0;
+}
+
+.theme-menu__button:disabled {
+  opacity: 0.6;
+  cursor: default;
+  pointer-events: none;
+}
+
+.theme-menu__button:disabled::before {
+  content: '▶';
+  position: absolute;
+  inset-inline-start: -13px;
+  inset-block-start: 0;
+}

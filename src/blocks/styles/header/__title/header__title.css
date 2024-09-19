@@ -1,0 +1,4 @@
+.header__title {
+  font-size: clamp(3.063rem, 2.71rem + 1.502vw, 4.063rem);
+  margin-block-start: clamp(7.5rem, 7.192rem + 1.315vw, 8.375rem);
+}

@@ -1,0 +1,5 @@
+.dialog__button {
+  inline-size: clamp(16.063rem, 15.248rem + 3.474vw, 18.375rem);
+  block-size: 38px;
+  text-transform: uppercase;
+}

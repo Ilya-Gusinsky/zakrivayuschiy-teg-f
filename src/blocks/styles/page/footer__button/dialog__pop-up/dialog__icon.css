@@ -1,0 +1,6 @@
+.dialog__icon {
+  flex-shrink: 0;
+  inline-size: 39px;
+  block-size: 62px;
+  fill: var(--main-color);
+}

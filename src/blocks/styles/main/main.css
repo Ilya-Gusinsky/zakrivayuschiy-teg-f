@@ -1,0 +1,6 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 100px;
+  align-items: center;
+}

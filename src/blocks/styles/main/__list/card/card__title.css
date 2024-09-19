@@ -1,0 +1,12 @@
+.card__title {
+  font-size: 18px;
+  font-variation-settings: 'wght' var(--headings-font-weight);
+  border-block-end: 2px solid currentColor;
+  padding: 5px 10px 6px;
+}
+
+@media (width > 375px) {
+  .card__title {
+    padding: 2px 10px 6px;
+  }
+}

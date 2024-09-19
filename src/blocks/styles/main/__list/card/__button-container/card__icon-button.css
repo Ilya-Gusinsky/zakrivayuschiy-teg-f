@@ -1,0 +1,19 @@
+.card__icon-button {
+  display: flex;
+  background-color: transparent;
+  border: 2px solid transparent;
+  appearance: none;
+  cursor: pointer;
+  transition: outline 0.3s ease;
+  padding: 0;
+  block-size: 38px;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}

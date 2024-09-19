@@ -1,0 +1,5 @@
+.main__list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3.125rem, 3.081rem + 0.188vw, 3.25rem);
+}
