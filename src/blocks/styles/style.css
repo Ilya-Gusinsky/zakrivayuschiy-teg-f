@@ -126,7 +126,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  margin-block-start: 102px;
+  margin-block-start: clamp(6.375rem, 6.287rem + 0.376vw, 6.625rem);
   align-items: center;
 }
 
@@ -417,23 +417,22 @@
 }
 
 .dialog__pop-up {
+  inset: 0;
   font-family: var(--title-font-family);
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
-  inline-size: clamp(21rem, 20.604rem + 1.69vw, 22.125rem);
+  inline-size: clamp(21.313rem, 21.114rem + 0.845vw, 21.875rem);
   display: grid;
   align-items: center;
   justify-items: center;
-  gap: 31px;
+  gap: 30px;
   margin: auto;
   border: 2px solid currentColor;
   background-color: var(--background-color);
   color: var(--main-color);
-  padding: 29px 38px 28px;
+  padding: 29px 30px 40px 38px ;
   transition: opacity 0.5s ease-in-out;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 .dialog__pop-up:not([open]) {
@@ -448,8 +447,9 @@
 
 @media (width > 375px) {
   .dialog__pop-up {
-    padding-inline-start: 27px;
+    padding-inline-start: 25px;
     padding-inline-end: 27px;
+    padding-block-end: 24px;
   }
 }
 
