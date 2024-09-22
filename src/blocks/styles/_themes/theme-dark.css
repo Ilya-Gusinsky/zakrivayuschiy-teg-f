@@ -15,6 +15,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   :root {
     --main-font-weight: 465;
     --headings-font-weight: 785;

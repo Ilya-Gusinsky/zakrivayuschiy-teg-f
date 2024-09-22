@@ -14,6 +14,7 @@
   (text-stroke: 1px var(--background-color)) or
     (-webkit-text-stroke: 1px var(--background-color))
 ) {
+
   .card__container-decoration {
     -webkit-text-stroke: 1px var(--background-color);
     /* stylelint-disable-next-line property-no-unknown */

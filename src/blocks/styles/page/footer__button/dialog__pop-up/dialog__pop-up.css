@@ -28,6 +28,7 @@
 }
 
 @media (width > 375px) {
+
   .dialog__pop-up {
     padding-inline-start: 27px;
     padding-inline-end: 27px;

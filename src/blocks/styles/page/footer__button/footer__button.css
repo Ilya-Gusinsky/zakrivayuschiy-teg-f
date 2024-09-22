@@ -10,6 +10,7 @@
 }
 
 @media (width > 375px) {
+
   .footer__button {
     block-size: 55px;
     flex-wrap: wrap;

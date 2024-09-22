@@ -6,6 +6,7 @@
 }
 
 @media (width > 375px) {
+
   .floppy__button {
     inline-size: 21px;
     block-size: 21px;

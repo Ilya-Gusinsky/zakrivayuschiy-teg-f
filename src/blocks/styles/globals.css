@@ -12,6 +12,7 @@ body {
 }
 
 @supports (font-variation-settings: normal) {
+
   body {
     font-family: var(--main-font-family);
   }
